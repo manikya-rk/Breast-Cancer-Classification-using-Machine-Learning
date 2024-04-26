@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output - Breast Cancer Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("{% static 'images/image3.jpg' %}"); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 95vh; 
+            color: #110c0c; /
+        }
+
+        h1 {
+            margin-left: 20px;
+            margin-top: 20px; 
+            font-size: 45px;
+        }
+
+        .result {
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+
+        .quotes {
+            margin-top: 50px; 
+            margin-left: 20px;
+            font-style: italic; 
+        }
+
+        .prevention {
+            margin-top: 50px; 
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classification Results</h1>
+    <div class="result">
+        <p>Classification: {{ prediction }}</p>
+        <p>0 ---&gt; Malignant</p>
+        <p>1 ---&gt; Benign</p>
+    </div>
+
+    <!-- Cancer Quotes -->
+    <div class="quotes">
+        <h2>DON'T WORRY</h2>
+        <p>"The human spirit is stronger than anything that can happen to it." - C.C. Scott</p>
+        <p>"Once you choose hope, anything's possible." - Christopher Reeve</p>
+    </div>
+
+    <!-- Cancer Prevention Tips -->
+    <div class="prevention">
+        <h2>Prevention Tips:</h2>
+        <ul>
+            <li>Eat a healthy diet rich in fruits, vegetables, and whole grains.</li>
+            <li>Maintain a healthy weight and exercise regularly.</li>
+            <li>Avoid tobacco use and limit alcohol consumption.</li>
+            <li>Protect your skin from the sun and avoid indoor tanning.</li>
+            <li>Get regular screenings and check-ups.</li>
+            <li>Stay informed about your family history of cancer.</li>
+            <li>Stay positive and practice stress-reducing activities.</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Breast Cancer Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("{% static 'images/123.jpg' %}"); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 95vh; 
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 46px;
+        }
+        p {
+            font-size: 26px; 
+            margin-left: 20px; 
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Breast Cancer Classification</h1>
+    <p>Click Here to Enter input:</p>
+    <ul>
+        <li><a href="/input/">Input Data</a></li>
+    </ul>
+</body>
+</html>
