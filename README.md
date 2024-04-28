@@ -1,4 +1,4 @@
-# **Breast Cancer Classofication using Machine Learning**
+# **Breast Cancer Classification using Machine Learning**
 ## **Introduction**
 This project aims to classify breast cancer tumors as benign or malignant using machine learning techniques, specifically logistic regression. The project includes a front-end interface developed using Django framework, comprising three main pages: home page, input page, and output page.
 
