@@ -18,3 +18,15 @@ Python<br>
 Django<br>
 HTML/CSS<br>
 scikit-learn
+
+## **Images of Output**
+
+### Home Page
+![Home Page](https://github.com/manikya-rk/Breast-Cancer-Classification-using-Machine-Learning/assets/85456691/9c34e800-aa6f-443c-b9a5-7a1c467d34d2)
+
+### **Input Page**
+![Input Page](https://github.com/manikya-rk/Breast-Cancer-Classification-using-Machine-Learning/assets/85456691/190dbe0b-7dfa-4130-a971-6157a8ba0c54)
+
+### **Output Page**
+![Output Page](https://github.com/manikya-rk/Breast-Cancer-Classification-using-Machine-Learning/assets/85456691/8bff00fc-a692-4dbe-9925-2d06132ae6d4)
+
