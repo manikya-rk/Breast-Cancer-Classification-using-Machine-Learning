@@ -9,8 +9,6 @@ def input(request):
 def output(request):
     import numpy as np
     import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
     import sklearn.datasets
     #loading the data from sklearn
     breast_cancer_dataset = sklearn.datasets.load_breast_cancer()
